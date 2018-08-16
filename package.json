@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-build": "webpack --watch",
-    "dev-start": "node server/index.js"
+    "dev-start": "nodemon server/index.js",
+    "start": "webpack && node server/index.js"
   },
   "author": "",
   "license": "ISC",
